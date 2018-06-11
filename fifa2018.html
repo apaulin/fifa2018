@@ -121,6 +121,14 @@ getBracketInfo.onreadystatechange = function()
 		bracket = JSON.parse(this.responseText);
 		if (config.pickPeriod == true)
 		{
+			if (config.round == "rounds)
+			{
+				displayDraftGroups();
+			}
+			else
+			{
+				displayDraftRound(config.round);
+			}
 			var roundDiv = gebi("roundPicksDiv");
 			var round = bracket["round" + config.round];
 			roundDiv.style.visibility = "visible";
@@ -229,6 +237,42 @@ getBracketInfo.onreadystatechange = function()
 		}
 		displayResults();
 		//gebi("resultsDiv").style.visibility = "visible";
+	}
+}
+
+var displayDraftGroups = function()
+{
+	var roundDiv = gebi("roundPicksDiv");
+	var groups = bracket["groups"];
+	roundDiv.style.visibility = "visible";
+	var t = document.createElement("table");
+	var r = t.insertRow(-1)
+	var c = r.insertCell(-1);
+	c.textContent = "Group";
+	c = r.insertCell(-1);
+	c.textContent = "First Place";
+	c = r.insertCell(-1);
+	c.textContent = "Second Place";
+	for(var i=0 ; i < groups.length; i++)
+	{
+		r = t.insertRow(-1);
+		c = r.insertCell(-1);
+		c.textContent = groups[i].name;
+		c = r.insertCell(-1);
+		var fp = document.createElement("select");
+		fp.id = "group" + i + "fp";
+		for(var j= 1; j <= 4; j++)
+		{
+			fp.add (new Option(groups[i]["team" + j], groups[i]["team" + j]);
+		}
+		c.appendChild(fp);
+		var sp = document.createElement("select");
+		sp.id = "group" + i + "sp";
+		for(var j= 1; j <= 4; j++)
+		{
+			fp.add (new Option(groups[i]["team" + j], groups[i]["team" + j]);
+		}
+		c.appendChild(sp);
 	}
 }
 

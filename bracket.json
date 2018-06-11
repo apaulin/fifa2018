@@ -1,114 +1,186 @@
 {
  "alive": [
-  "Washington",
-  "Vegas"
  ],
- "round1": {
+ "groups": [
+	{
+		"name" : "Group A",
+		"team1" : "Russia",
+		"team2" : "Saudi Arabia",
+		"team3" : "Egypt",
+		"team4" : "Uruguay",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group B",
+		"team1" : "Portugal",
+		"team2" : "Spain",
+		"team3" : "Morocco",
+		"team4" : "Iran",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group C",
+		"team1" : "France",
+		"team2" : "Australia",
+		"team3" : "Peru",
+		"team4" : "Danemark",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group D",
+		"team1" : "Argentina",
+		"team2" : "Iceland",
+		"team3" : "Croatia",
+		"team4" : "Nigeria",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group E",
+		"team1" : "Brazil",
+		"team2" : "Switzerland",
+		"team3" : "Costa Rica",
+		"team4" : "Serbia",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group F",
+		"team1" : "Germany",
+		"team2" : "Mexico",
+		"team3" : "Sweden",
+		"team4" : "South Korea",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group G",
+		"team1" : "Belgium",
+		"team2" : "Panama",
+		"team3" : "Tunisia",
+		"team4" : "England",
+		"first" : "",
+		"second" : ""
+	},
+	{
+		"name" : "Group H",
+		"team1" : "Poland",
+		"team2" : "Senegal",
+		"team3" : "Columbia",
+		"team4" : "Japan",
+		"first" : "",
+		"second" : ""
+	}
+ ],
+ "finalists" : ["", ""],
+ "cupWinner" : "",
+ "round16" :
+ {
   "matchups": [
    {
-    "team1": "Tampa Bay",
-    "team2": "New Jersey",
-    "winner": "Tampa Bay",
-    "numberOfGames": "5"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Boston",
-    "team2": "Toronto",
-    "winner": "Boston",
-    "numberOfGames": "7"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Washington",
-    "team2": "Columbus",
-    "winner": "Washington",
-    "numberOfGames": "6"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Pittsburgh",
-    "team2": "Philadelphia",
-    "winner": "Pittsburgh",
-    "numberOfGames": "6"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Nashville",
-    "team2": "Colorado",
-    "winner": "Nashville",
-    "numberOfGames": "6"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Winnipeg",
-    "team2": "Minnesota",
-    "winner": "Winnipeg",
-    "numberOfGames": "5"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Vegas",
-    "team2": "Los Angeles",
-    "winner": "Vegas",
-    "numberOfGames": "4"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Anaheim",
-    "team2": "San Jose",
-    "winner": "San Jose",
-    "numberOfGames": "4"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    }
-  ],
-  "easternFinalist": "Washington",
-  "westernFinalist": "Vegas",
-  "cupWinner": ""
+	]
  },
- "round2": {
+ "round8": {
   "matchups": [
    {
-    "team1": "Tampa Bay",
-    "team2": "Boston",
-    "winner": "Tampa Bay",
-    "numberOfGames": "5"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Washington",
-    "team2": "Pittsburgh",
-    "winner": "Washington",
-    "numberOfGames": "6"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Nashville",
-    "team2": "Winnipeg",
-    "winner": "Winnipeg",
-    "numberOfGames": "7"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    },
    {
-    "team1": "Vegas",
-    "team2": "San Jose",
-    "winner": "Vegas",
-    "numberOfGames": "6"
-   }
-  ]
- },
- "round3": {
-  "matchups": [
-   {
-    "team1": "Washington",
-    "team2": "Tampa Bay",
-    "winner": "Washington",
-    "numberOfGames": "7"
-   },
-   {
-    "team1": "Winnipeg",
-    "team2": "Vegas",
-    "winner": "Vegas",
-    "numberOfGames": "5"
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    }
   ]
  },
  "round4": {
   "matchups": [
    {
-    "team1": "Washington",
-    "team2": "Vegas",
+    "team1": "",
+    "team2": "",
     "winner": "",
-    "numberOfGames": "0"
+    "spread": ""
+   },
+   {
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
+   }
+  ]
+ },
+ "final": {
+  "matchups": [
+   {
+    "team1": "",
+    "team2": "",
+    "winner": "",
+    "spread": ""
    }
   ]
  }
