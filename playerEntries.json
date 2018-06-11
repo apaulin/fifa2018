@@ -1,0 +1,28 @@
+[
+ {
+  "name": "admin",
+  "payed": "No",
+  "password": "1212"
+ },
+ {
+  "name": "Hamza Halli",
+  "payed": "No",
+  "password": "",
+  },
+ {
+  "name": "Ted Knowles",
+  "payed": "Yes",
+  "password": "",
+ },
+ {
+  "name": "Andre Claude Paulin",
+  "payed": "Yes",
+  "password": "",
+ },
+ {
+  "name": "Gwenael Poitau",
+  "payed": "Yes",
+  "password": "",
+ }
+
+]

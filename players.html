@@ -1,0 +1,93 @@
+<html>
+<head>
+<script language="javascript">
+var getPlayersInfo = new XMLHttpRequest();
+var setPlayersInfo = new XMLHttpRequest();
+var players = null;
+
+var load = function()
+{
+	getPlayersInfo.open("GET", "playerEntries.json");
+	getPlayersInfo.send();
+}
+
+getPlayersInfo.onreadystatechange = function()
+{
+	if (this.readyState == 4 && this.status == 200)
+	{
+		players = JSON.parse(this.responseText);
+		var t = document.createElement("table");
+		gebi("playerDiv").appendChild(t);
+		for(var i=1; i < players.length; i++)
+		{
+			var r = t.insertRow(-1);
+			var c = r.insertCell(-1);
+			c.textContent = i;
+
+			c = r.insertCell(-1);
+			var n = document.createElement("input");
+			n.id = "name_" + i;
+			n.value = players[i].name;
+			c.appendChild(n);
+
+			c = r.insertCell(-1);
+			var payed = document.createElement("input");
+			payed.id = "payed_" + i;
+			payed.value = players[i].payed;	
+			payed.size = 5;		
+			c.appendChild(payed);
+
+			c = r.insertCell(-1);
+			var p = document.createElement("input");
+			p.id = "password_" + i;
+			if (players[i].password != undefined)
+			{
+				p.value = players[i].password;
+			}
+			else
+			{
+				p.value = "";
+			}
+			c.appendChild(p);
+		}
+		gebi("submitButton").disabled = false;
+	}
+}
+
+var submit = function()
+{
+	var ret = new Object();
+	ret.password = gebi("passwordText").value;
+	ret.players = players;
+	for (var i =1; i < players.length; i++)
+	{
+		ret.players[i].name = gebi("name_" + i).value;
+		ret.players[i].payed = gebi("payed_" + i).value;
+		ret.players[i].password = gebi("password_" + i).value;
+	}
+	setPlayersInfo.open("POST", "/changeplayers/all/null");
+	setPlayersInfo.send(JSON.stringify(ret, null,2));
+}
+
+setPlayersInfo.onreadystatechange = function()
+{
+	if (this.readyState == 4 && this.status == 200)
+	{
+		alert(this.responseText);
+	}
+}
+
+var gebi = function(id)
+{
+	return document.getElementById(id);
+}
+
+</script>
+</head>
+<body onload="load();">
+<input type="text" id="passwordText" /> <br/>
+<div id="playerDiv">
+</div>
+<input type="button" id="submitButton" value="Submit" onclick="submit();" disabled/>
+</body>
+</html>

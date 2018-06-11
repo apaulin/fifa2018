@@ -1,0 +1,82 @@
+<html>
+<head>
+	<style>
+		select{
+			font-size: 36px;
+		};
+		
+	</style>
+<script language="javascript">
+var getConfigInfo = new XMLHttpRequest();
+var setConfigInfo = new XMLHttpRequest();
+var config = null;
+
+var load = function()
+{
+	getConfigInfo.open("GET", "config.json");
+	getConfigInfo.send();
+}
+
+getConfigInfo.onreadystatechange = function()
+{
+	if (this.readyState == 4 && this.status == 200)
+	{
+		config = JSON.parse(this.responseText);
+		gebi("periodSelect").value = config.pickPeriod;
+		gebi("roundSelect").value = config.round;
+		gebi("submitButton").disabled = false;
+	}
+}
+
+var submit = function()
+{
+	var ret = new Object();
+	ret.password = gebi("passwordText").value;
+	ret.config = config;
+	if (gebi("periodSelect").value == "true")
+	{
+		ret.config.pickPeriod = true;
+	}
+	else
+	{
+		ret.config.pickPeriod = false;
+	}
+	ret.config.round = gebi("roundSelect").value;
+	setConfigInfo.open("POST", "/changeconfig/all/null");
+	setConfigInfo.send(JSON.stringify(ret, null,2));
+}
+
+setConfigInfo.onreadystatechange = function()
+{
+	if (this.readyState == 4 && this.status == 200)
+	{
+		alert(this.responseText);
+	}
+}
+
+var gebi = function(id)
+{
+	return document.getElementById(id);
+}
+
+</script>
+</head>
+<body onload="load();">
+<input type="text" id="passwordText" /><br/>
+Pick Period 
+<select id="periodSelect">
+	<option value="true">True</option>
+	<option value="false">False</option>
+</select>
+<br/>
+Round
+<select id="roundSelect">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+</select>
+<br/>
+<input type="button" id="submitButton" value="Submit" onclick="submit();" disabled/>
+</body>
+</html>

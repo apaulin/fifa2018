@@ -1,0 +1,115 @@
+{
+ "alive": [
+  "Washington",
+  "Vegas"
+ ],
+ "round1": {
+  "matchups": [
+   {
+    "team1": "Tampa Bay",
+    "team2": "New Jersey",
+    "winner": "Tampa Bay",
+    "numberOfGames": "5"
+   },
+   {
+    "team1": "Boston",
+    "team2": "Toronto",
+    "winner": "Boston",
+    "numberOfGames": "7"
+   },
+   {
+    "team1": "Washington",
+    "team2": "Columbus",
+    "winner": "Washington",
+    "numberOfGames": "6"
+   },
+   {
+    "team1": "Pittsburgh",
+    "team2": "Philadelphia",
+    "winner": "Pittsburgh",
+    "numberOfGames": "6"
+   },
+   {
+    "team1": "Nashville",
+    "team2": "Colorado",
+    "winner": "Nashville",
+    "numberOfGames": "6"
+   },
+   {
+    "team1": "Winnipeg",
+    "team2": "Minnesota",
+    "winner": "Winnipeg",
+    "numberOfGames": "5"
+   },
+   {
+    "team1": "Vegas",
+    "team2": "Los Angeles",
+    "winner": "Vegas",
+    "numberOfGames": "4"
+   },
+   {
+    "team1": "Anaheim",
+    "team2": "San Jose",
+    "winner": "San Jose",
+    "numberOfGames": "4"
+   }
+  ],
+  "easternFinalist": "Washington",
+  "westernFinalist": "Vegas",
+  "cupWinner": ""
+ },
+ "round2": {
+  "matchups": [
+   {
+    "team1": "Tampa Bay",
+    "team2": "Boston",
+    "winner": "Tampa Bay",
+    "numberOfGames": "5"
+   },
+   {
+    "team1": "Washington",
+    "team2": "Pittsburgh",
+    "winner": "Washington",
+    "numberOfGames": "6"
+   },
+   {
+    "team1": "Nashville",
+    "team2": "Winnipeg",
+    "winner": "Winnipeg",
+    "numberOfGames": "7"
+   },
+   {
+    "team1": "Vegas",
+    "team2": "San Jose",
+    "winner": "Vegas",
+    "numberOfGames": "6"
+   }
+  ]
+ },
+ "round3": {
+  "matchups": [
+   {
+    "team1": "Washington",
+    "team2": "Tampa Bay",
+    "winner": "Washington",
+    "numberOfGames": "7"
+   },
+   {
+    "team1": "Winnipeg",
+    "team2": "Vegas",
+    "winner": "Vegas",
+    "numberOfGames": "5"
+   }
+  ]
+ },
+ "round4": {
+  "matchups": [
+   {
+    "team1": "Washington",
+    "team2": "Vegas",
+    "winner": "",
+    "numberOfGames": "0"
+   }
+  ]
+ }
+}

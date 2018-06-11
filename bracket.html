@@ -1,0 +1,147 @@
+<html>
+<head>
+<style>
+	input[type=text]
+	{
+		font-size: 36px;
+		background-color: #CCCCFF;
+	}
+</style>
+<script language="javascript">
+var getBracketInfo = new XMLHttpRequest();
+var setBracketInfo = new XMLHttpRequest();
+var bracket = null;
+
+var load = function()
+{
+	getBracketInfo.open("GET", "bracket.json");
+	getBracketInfo.send();
+}
+
+getBracketInfo.onreadystatechange = function()
+{
+	if (this.readyState == 4 && this.status == 200)
+	{
+		bracket = JSON.parse(this.responseText);
+		var t = document.createElement('table');
+		gebi("mainDiv").appendChild(t);
+		var r;
+		var c;
+		for(var i =1; i <= 4; i++)
+		{
+			r = t.insertRow(-1);
+			c = r.insertCell(-1);
+			c.colSpan = 3;
+			c.textContent = "Round #" + i; 
+			for(var j=0; j < bracket["round" + i].matchups.length; j++)
+			{
+				r = t.insertRow(-1);
+				c = r.insertCell(-1);
+				var text = document.createElement("input");
+				text.id = "round_" + i + "_" + j + "_team1";
+				text.value = bracket["round" + i].matchups[j].team1;
+				c.appendChild(text); 
+
+				c = r.insertCell(-1);
+				text = document.createElement("input");
+				text.id = "round_" + i + "_" + j + "_team2";
+				text.value = bracket["round" + i].matchups[j].team2;
+				c.appendChild(text); 
+
+
+				c = r.insertCell(-1);
+				text = document.createElement("input");
+				text.id = "round_" + i + "_" + j+ "_winner";
+				text.value = bracket["round" + i].matchups[j].winner;
+				c.appendChild(text); 
+
+
+				c = r.insertCell(-1);
+				text = document.createElement("input");
+				text.id = "round_" + i + "_" + j + "_numberOfGames";
+				text.value = bracket["round" + i].matchups[j].numberOfGames;
+				text.size = 3;
+				c.appendChild(text); 
+
+			}
+			if(i == 1)
+			{
+				r = t.insertRow(-1);
+				c = r.insertCell(-1);
+				c.textContent = "Eastern Finalist";
+				c = r.insertCell(-1);
+				var text = document.createElement("input");
+				text.id = "easternFinalist";
+				text.value = bracket["round" + i].easternFinalist;
+				c.appendChild(text); 
+
+				r = t.insertRow(-1);
+				c = r.insertCell(-1);
+				c.textContent = "Western Finalist";
+				c = r.insertCell(-1);
+				var text = document.createElement("input");
+				text.id = "westernFinalist";
+				text.value = bracket["round" + i].westernFinalist;
+				c.appendChild(text); 
+
+				r = t.insertRow(-1);
+				c = r.insertCell(-1);
+				c.textContent = "Cup Winner";
+				c = r.insertCell(-1);
+				var text = document.createElement("input");
+				text.id = "cupWinner";
+				text.value = bracket["round" + i].cupWinner;
+				c.appendChild(text); 
+			}
+		}
+		gebi("submitButton").disabled = false;
+	}
+}
+
+var submit = function()
+{
+	var ret = new Object();
+	ret.password = gebi("passwordText").value;
+	ret.bracket = bracket;
+	for(var i =1; i <= 4; i++)
+	{
+		for(var j=0; j <  ret.bracket["round" + i].matchups.length; j++)
+		{
+			ret.bracket["round" + i].matchups[j].team1 = gebi("round_" + i + "_" + j +"_team1").value;
+			ret.bracket["round" + i].matchups[j].team2 = gebi("round_" + i + "_" + j+ "_team2").value;
+			ret.bracket["round" + i].matchups[j].winner = gebi("round_" + i + "_" + j+ "_winner").value;
+			ret.bracket["round" + i].matchups[j].numberOfGames = gebi("round_" + i + "_" + j+ "_numberOfGames").value;
+		}
+	}
+
+	ret.bracket["round1"].easternFinalist = gebi("easternFinalist").value;
+	ret.bracket["round1"].westernFinalist = gebi("westernFinalist").value;
+	ret.bracket["round1"].cupWinner = gebi("cupWinner").value;
+
+	setBracketInfo.open("POST", "/changebracket/all/null");
+	setBracketInfo.send(JSON.stringify(ret, null,2));
+}
+
+setBracketInfo.onreadystatechange = function()
+{
+	if (this.readyState == 4 && this.status == 200)
+	{
+		alert(this.responseText);
+	}
+}
+
+
+
+var gebi = function(id)
+{
+	return document.getElementById(id);
+}
+</script>
+</head>
+<body onload="load();">
+<input type="text" id="passwordText" /><br/>
+<div id="mainDiv">
+</div>
+<input type="button" id="submitButton" value="Submit" onclick="submit();" disabled/>
+</body>
+</html>
