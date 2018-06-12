@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 
 
-var webRoot = "./";
+var webRoot = "./src";
 var port = 8080;
 
 var players = null;
@@ -43,18 +43,6 @@ var endPhrases = new Array(
 );
 
 var endPhrasesPerso = [
-	{ 
-		name: "Andre Charette",
-		phrases: ["Une chance qu'il n'y a pas le feature avec les dessins qui bouge, il aurait fallu t'installer un écran à gauche pour voir le tien!!!"]
-	},
-	{ 
-		name: "Martin Audet",
-		phrases: ["Avec des picks comme ça, fais comme si ton cou est un dual-rotator, tourne la tête pis ne regarde pas les résultats..."]
-	},
-	{ 
-		name: "Brian Hubbs",
-		phrases: ["You shouldn't let your wife make your picks for you...  She maybe Canadian but she's from Toronto!"]
-	}
 
 ];
 
@@ -177,6 +165,18 @@ router.route("/bracketinfo/:type/:arg1").get(function(req, res, next)
 {
 	debug("GET Bracket Info");
    res.send(JSON.stringify(bracket, null, 2));
+});
+
+router.route("/configInfo/:type/:arg1").get(function(req, res, next) 															 
+{
+	debug("GET Config Info");
+   res.send(JSON.stringify(config, null, 2));
+});
+
+router.route("/playersInfo/:type/:arg1").get(function(req, res, next) 															 
+{
+	debug("GET Players Info");
+   res.send(JSON.stringify(players, null, 2));
 });
 
 router.route("/picksinfo/:type/:arg1").post(function(req, res, next)

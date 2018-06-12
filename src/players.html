@@ -7,7 +7,7 @@ var players = null;
 
 var load = function()
 {
-	getPlayersInfo.open("GET", "playerEntries.json");
+	getPlayersInfo.open("GET", "playersInfo/all/" + Math.floor(1000000* Math.random()));
 	getPlayersInfo.send();
 }
 
@@ -17,6 +17,7 @@ getPlayersInfo.onreadystatechange = function()
 	{
 		players = JSON.parse(this.responseText);
 		var t = document.createElement("table");
+		t.id = "mainTable";
 		gebi("playerDiv").appendChild(t);
 		for(var i=1; i < players.length; i++)
 		{
@@ -50,6 +51,7 @@ getPlayersInfo.onreadystatechange = function()
 			}
 			c.appendChild(p);
 		}
+		gebi("addButton").disabled = false;
 		gebi("submitButton").disabled = false;
 	}
 }
@@ -77,6 +79,36 @@ setPlayersInfo.onreadystatechange = function()
 	}
 }
 
+var addPlayer = function()
+{
+	players.push(new Object());
+	var i = players.length - 1;
+	var t = gebi("mainTable");
+	var r = t.insertRow(-1);
+	var c = r.insertCell(-1);
+	c.textContent = i;
+
+	c = r.insertCell(-1);
+	var n = document.createElement("input");
+	n.id = "name_" + i;
+	n.value = "Name";
+	c.appendChild(n);
+
+	c = r.insertCell(-1);
+	var payed = document.createElement("input");
+	payed.id = "payed_" + i;
+	payed.value = "No";	
+	payed.size = 5;		
+	c.appendChild(payed);
+
+	c = r.insertCell(-1);
+	var p = document.createElement("input");
+	p.id = "password_" + i;
+	p.value = "";
+	c.appendChild(p);
+	
+}
+
 var gebi = function(id)
 {
 	return document.getElementById(id);
@@ -88,6 +120,7 @@ var gebi = function(id)
 <input type="text" id="passwordText" /> <br/>
 <div id="playerDiv">
 </div>
+<input type="button" id="addButton" value="Add a Player" onclick="addPlayer();" disabled/>
 <input type="button" id="submitButton" value="Submit" onclick="submit();" disabled/>
 </body>
 </html>

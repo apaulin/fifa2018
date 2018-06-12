@@ -5,24 +5,33 @@
   "password": "1212"
  },
  {
+  "name": "Ralph Chahine",
+  "payed": "No",
+  "password": ""
+ },
+ {
+  "name": "Paolo Giannetti",
+  "payed": "No",
+  "password": "PGX028"
+ },
+ {
   "name": "Hamza Halli",
   "payed": "No",
-  "password": "",
-  },
+  "password": ""
+ },
  {
   "name": "Ted Knowles",
-  "payed": "Yes",
-  "password": "",
+  "payed": "No",
+  "password": "Bruins"
  },
  {
   "name": "Andre Claude Paulin",
-  "payed": "Yes",
-  "password": "",
+  "payed": "No",
+  "password": "1212"
  },
  {
   "name": "Gwenael Poitau",
-  "payed": "Yes",
-  "password": "",
+  "payed": "No",
+  "password": ""
  }
-
 ]

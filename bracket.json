@@ -1,136 +1,173 @@
 {
  "alive": [
+  "Russia",
+  "Saudi Arabia",
+  "Egypt",
+  "Uruguay",
+  "Portugal",
+  "Spain",
+  "Morocco",
+  "Iran",
+  "France",
+  "Australia",
+  "Peru",
+  "Danemark",
+  "Argentina",
+  "Iceland",
+  "Croatia",
+  "Nigeria",
+  "Brazil",
+  "Switzerland",
+  "Costa Rica",
+  "Serbia",
+  "Germany",
+  "Mexico",
+  "Sweden",
+  "South Korea",
+  "Belgium",
+  "Panama",
+  "Tunisia",
+  "England",
+  "Poland",
+  "Senegal",
+  "Columbia",
+  "Japan"
  ],
- "groups": [
-	{
-		"name" : "Group A",
-		"team1" : "Russia",
-		"team2" : "Saudi Arabia",
-		"team3" : "Egypt",
-		"team4" : "Uruguay",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group B",
-		"team1" : "Portugal",
-		"team2" : "Spain",
-		"team3" : "Morocco",
-		"team4" : "Iran",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group C",
-		"team1" : "France",
-		"team2" : "Australia",
-		"team3" : "Peru",
-		"team4" : "Danemark",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group D",
-		"team1" : "Argentina",
-		"team2" : "Iceland",
-		"team3" : "Croatia",
-		"team4" : "Nigeria",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group E",
-		"team1" : "Brazil",
-		"team2" : "Switzerland",
-		"team3" : "Costa Rica",
-		"team4" : "Serbia",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group F",
-		"team1" : "Germany",
-		"team2" : "Mexico",
-		"team3" : "Sweden",
-		"team4" : "South Korea",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group G",
-		"team1" : "Belgium",
-		"team2" : "Panama",
-		"team3" : "Tunisia",
-		"team4" : "England",
-		"first" : "",
-		"second" : ""
-	},
-	{
-		"name" : "Group H",
-		"team1" : "Poland",
-		"team2" : "Senegal",
-		"team3" : "Columbia",
-		"team4" : "Japan",
-		"first" : "",
-		"second" : ""
-	}
- ],
- "finalists" : ["", ""],
- "cupWinner" : "",
- "round16" :
- {
+ "round1": {
+  "name": "Group Round-Robin",
   "matchups": [
    {
-    "team1": "",
-    "team2": "",
+    "name": "Group A",
+    "team1": "Russia",
+    "team2": "Saudi Arabia",
+    "team3": "Egypt",
+    "team4": "Uruguay",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group B",
+    "team1": "Portugal",
+    "team2": "Spain",
+    "team3": "Morocco",
+    "team4": "Iran",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group C",
+    "team1": "France",
+    "team2": "Australia",
+    "team3": "Peru",
+    "team4": "Danemark",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group D",
+    "team1": "Argentina",
+    "team2": "Iceland",
+    "team3": "Croatia",
+    "team4": "Nigeria",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group E",
+    "team1": "Brazil",
+    "team2": "Switzerland",
+    "team3": "Costa Rica",
+    "team4": "Serbia",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group F",
+    "team1": "Germany",
+    "team2": "Mexico",
+    "team3": "Sweden",
+    "team4": "South Korea",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group G",
+    "team1": "Belgium",
+    "team2": "Panama",
+    "team3": "Tunisia",
+    "team4": "England",
+    "first": "",
+    "second": ""
+   },
+   {
+    "name": "Group H",
+    "team1": "Poland",
+    "team2": "Senegal",
+    "team3": "Columbia",
+    "team4": "Japan",
+    "first": "",
+    "second": ""
+   }
+  ],
+  "finalist1": "France",
+  "finalist2": "Russia",
+  "cupWinner": "Russia"
+ },
+ "round2": {
+  "name": "Round of 16",
+  "matchups": [
+   {
+    "team1": "Russia",
+    "team2": "Iceland",
+    "winner": "Russia",
+    "spread": "1"
+   },
+   {
+    "team1": "Portugal",
+    "team2": "Switzerland",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
+    "team1": "France",
+    "team2": "Australia",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
+    "team1": "Argentina",
+    "team2": "Panama",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
+    "team1": "Brazil",
+    "team2": "Saudi Arabia",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
+    "team1": "Germany",
+    "team2": "Spain",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
+    "team1": "Belgium",
+    "team2": "Australia",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
-    "winner": "",
-    "spread": ""
-   },
-   {
-    "team1": "",
-    "team2": "",
+    "team1": "Poland",
+    "team2": "Mexico",
     "winner": "",
     "spread": ""
    }
-	]
+  ]
  },
- "round8": {
+ "round3": {
+  "name": "Round of 8",
   "matchups": [
    {
     "team1": "",
@@ -159,6 +196,7 @@
   ]
  },
  "round4": {
+  "name": "Semi - Finals",
   "matchups": [
    {
     "team1": "",
@@ -174,7 +212,8 @@
    }
   ]
  },
- "final": {
+ "round5": {
+  "name": "Final",
   "matchups": [
    {
     "team1": "",
