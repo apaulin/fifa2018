@@ -50,6 +50,18 @@ getPlayersInfo.onreadystatechange = function()
 				p.value = "";
 			}
 			c.appendChild(p);
+			for(var rc = 1; rc <= 5; rc++)
+			{
+				c = r.insertCell(-1);
+				if(players[i]["round" + rc] == undefined)
+				{
+					c.textContent = "No";
+				}
+				else
+				{
+					c.textContent = "Yes";
+				}
+			}
 		}
 		gebi("addButton").disabled = false;
 		gebi("submitButton").disabled = false;

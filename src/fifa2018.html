@@ -473,9 +473,16 @@ var createNumberOfGamesSelect = function(id)
 	var ret = document.createElement("select");
 	ret.id = id;
 	ret.add(new Option("", ""));
-	for(var i = 1; i < 11; i++)
+	for(var i = 0; i < 11; i++)
 	{
-		ret.add(new Option(i + " goals",i));
+		if (i==0)
+		{
+			ret.add(new Option(i + " goals (shootout)",i));
+		}
+		else
+		{
+			ret.add(new Option(i + " goals",i));
+		}
 	}
 	return ret;
 }
@@ -485,8 +492,7 @@ var displayResults = function()
 {
 	calculateResults();
 	var t = gebi("resultsTable");
-	var order = new Array();
-	order[0] = 1;
+	var order = new Array(2, 1);
 	for (var l=0; l < order.length; l++)
 	{
 		

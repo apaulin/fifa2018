@@ -6,32 +6,1459 @@
  },
  {
   "name": "Ralph Chahine",
-  "payed": "No",
-  "password": ""
+  "payed": "Yes",
+  "password": "Tintin",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Nigeria"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "England",
+     "second": "Belgium"
+    },
+    {
+     "first": "Columbia",
+     "second": "Senegal"
+    }
+   ],
+   "finalist1": "Brazil",
+   "finalist2": "Germany",
+   "cupWinner": "Brazil"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "1",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Spain",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Danemark",
+     "spread": "1",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "1",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "1"
+    }
+   ]
+  }
  },
  {
   "name": "Paolo Giannetti",
-  "payed": "No",
-  "password": "PGX028"
+  "payed": "Yes",
+  "password": "PGX028",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Russia",
+     "second": "Egypt"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Iceland"
+    },
+    {
+     "first": "Brazil",
+     "second": "Costa Rica"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Brazil",
+   "finalist2": "Portugal",
+   "cupWinner": "Portugal"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "2",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Colombia",
+     "spread": "1",
+     "weightOfGame": "2"
+    }
+   ]
+  }
  },
  {
   "name": "Hamza Halli",
   "payed": "No",
-  "password": ""
+  "password": "hmz86",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Costa Rica"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Columbia",
+     "second": "Poland"
+    }
+   ],
+   "finalist1": "France",
+   "finalist2": "Brazil",
+   "cupWinner": "Argentina"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Spain",
+     "spread": "1",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "0",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "7"
+    }
+   ]
+  }
  },
  {
   "name": "Ted Knowles",
   "payed": "No",
-  "password": "Bruins"
+  "password": "Bruins",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Russia"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Germany",
+   "finalist2": "Brazil",
+   "cupWinner": "Germany"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "Switzerland",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "England",
+     "spread": "0",
+     "weightOfGame": "4"
+    }
+   ]
+  }
  },
  {
   "name": "Andre Claude Paulin",
-  "payed": "No",
-  "password": "1212"
+  "payed": "Yes",
+  "password": "1212",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Sweden"
+    },
+    {
+     "first": "England",
+     "second": "Belgium"
+    },
+    {
+     "first": "Columbia",
+     "second": "Poland"
+    }
+   ],
+   "finalist1": "Germany",
+   "finalist2": "Brazil",
+   "cupWinner": "Germany"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "0",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "1",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Spain",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "7"
+    }
+   ]
+  }
  },
  {
   "name": "Gwenael Poitau",
   "payed": "No",
+  "password": "",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Peru"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Sweden"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Columbia",
+     "second": "Poland"
+    }
+   ],
+   "finalist1": "France",
+   "finalist2": "Spain",
+   "cupWinner": "France"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Spain",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Switzerland",
+     "spread": "0",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "1"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Judith Moffat",
+  "payed": "Yes",
+  "password": "",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Russia",
+     "second": "Uruguay"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "France",
+     "second": "Australia"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "South Korea"
+    },
+    {
+     "first": "England",
+     "second": "Belgium"
+    },
+    {
+     "first": "Japan",
+     "second": "Poland"
+    }
+   ],
+   "finalist1": "Argentina",
+   "finalist2": "Germany",
+   "cupWinner": "Germany"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "1",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "2",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Switzerland",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "2"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Michel Fantetti",
+  "payed": "Yes",
+  "password": "TeamJaguard008",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Egypt",
+     "second": "Uruguay"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Germany",
+   "finalist2": "Spain",
+   "cupWinner": "Germany"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "0",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "1",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "2",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "5"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Michel Lessard",
+  "payed": "Yes",
+  "password": "denis",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "France",
+     "second": "Peru"
+    },
+    {
+     "first": "Argentina",
+     "second": "Iceland"
+    },
+    {
+     "first": "Brazil",
+     "second": "Serbia"
+    },
+    {
+     "first": "Germany",
+     "second": "Sweden"
+    },
+    {
+     "first": "England",
+     "second": "Belgium"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Brazil",
+   "finalist2": "Germany",
+   "cupWinner": "Brazil"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Japan",
+     "spread": "0",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "England",
+     "spread": "0",
+     "weightOfGame": "6"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Sok-Khieng Chum Hun",
+  "payed": "Yes",
+  "password": "narges",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Russia"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Peru"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "South Korea"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Senegal",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "France",
+   "finalist2": "Germany",
+   "cupWinner": "France"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "2",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Russia",
+     "spread": "1",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "2",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "England",
+     "spread": "3",
+     "weightOfGame": "7"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Marie-Eve Grandmaison",
+  "payed": "No",
+  "password": "ballonrond",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Russia",
+     "second": "Uruguay"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Peru"
+    },
+    {
+     "first": "Argentina",
+     "second": "Nigeria"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "England",
+     "second": "Belgium"
+    },
+    {
+     "first": "Columbia",
+     "second": "Poland"
+    }
+   ],
+   "finalist1": "France",
+   "finalist2": "Spain",
+   "cupWinner": "Spain"
+  }
+ },
+ {
+  "name": "Danic St-Onge",
+  "payed": "No",
+  "password": "",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Saudi Arabia"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "Danemark",
+     "second": "Peru"
+    },
+    {
+     "first": "Iceland",
+     "second": "Argentina"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Mexico",
+     "second": "Sweden"
+    },
+    {
+     "first": "Tunisia",
+     "second": "Belgium"
+    },
+    {
+     "first": "Poland",
+     "second": "Japan"
+    }
+   ],
+   "finalist1": "Costa Rica",
+   "finalist2": "Columbia",
+   "cupWinner": "Brazil"
+  }
+ },
+ {
+  "name": "------",
+  "payed": "No",
   "password": ""
+ },
+ {
+  "name": "John Bailey",
+  "payed": "Yes",
+  "password": "England2018",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Russia",
+     "second": "Uruguay"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Serbia"
+    },
+    {
+     "first": "Germany",
+     "second": "Sweden"
+    },
+    {
+     "first": "England",
+     "second": "Tunisia"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "England",
+   "finalist2": "Portugal",
+   "cupWinner": "England"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "3",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Russia",
+     "spread": "1",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Danemark",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "2",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Van Phuong Nguyen",
+  "payed": "No",
+  "password": "",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Russia",
+     "second": "Uruguay"
+    },
+    {
+     "first": "Portugal",
+     "second": "Spain"
+    },
+    {
+     "first": "Danemark",
+     "second": "France"
+    },
+    {
+     "first": "Croatia",
+     "second": "Argentina"
+    },
+    {
+     "first": "Brazil",
+     "second": "Serbia"
+    },
+    {
+     "first": "Germany",
+     "second": "South Korea"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Poland",
+     "second": "Japan"
+    }
+   ],
+   "finalist1": "Portugal",
+   "finalist2": "Germany",
+   "cupWinner": "Germany"
+  }
+ },
+ {
+  "name": "Laurentiu  Ionescu",
+  "payed": "Yes",
+  "password": "viorica",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Russia"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "Peru",
+     "second": "Danemark"
+    },
+    {
+     "first": "Croatia",
+     "second": "Argentina"
+    },
+    {
+     "first": "Brazil",
+     "second": "Costa Rica"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Brazil",
+   "finalist2": "Croatia",
+   "cupWinner": "Brazil"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Argentina",
+     "spread": "1",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "England",
+     "spread": "0",
+     "weightOfGame": "1"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Lincoln Turner",
+  "payed": "Yes",
+  "password": "andrew",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Peru"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Serbia"
+    },
+    {
+     "first": "Germany",
+     "second": "Sweden"
+    },
+    {
+     "first": "Belgium",
+     "second": "England"
+    },
+    {
+     "first": "Poland",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Belgium",
+   "finalist2": "Germany",
+   "cupWinner": "Germany"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Uruguay",
+     "spread": "0",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "2",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Spain",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "0",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "England",
+     "spread": "0",
+     "weightOfGame": "2"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Andre Charette",
+  "payed": "Yes",
+  "password": "Piano",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Uruguay",
+     "second": "Egypt"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Croatia"
+    },
+    {
+     "first": "Brazil",
+     "second": "Switzerland"
+    },
+    {
+     "first": "Germany",
+     "second": "Mexico"
+    },
+    {
+     "first": "England",
+     "second": "Belgium"
+    },
+    {
+     "first": "Senegal",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Spain",
+   "finalist2": "Brazil",
+   "cupWinner": "Spain"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "0",
+     "weightOfGame": "1"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Spain",
+     "spread": "2",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Switzerland",
+     "spread": "0",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "4"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Souhaila Boulahmi",
+  "payed": "No",
+  "password": "",
+  "round1": {
+   "matchups": [
+    {
+     "first": "Russia",
+     "second": "Egypt"
+    },
+    {
+     "first": "Spain",
+     "second": "Portugal"
+    },
+    {
+     "first": "France",
+     "second": "Danemark"
+    },
+    {
+     "first": "Argentina",
+     "second": "Nigeria"
+    },
+    {
+     "first": "Brazil",
+     "second": "Costa Rica"
+    },
+    {
+     "first": "Germany",
+     "second": "Sweden"
+    },
+    {
+     "first": "England",
+     "second": "Tunisia"
+    },
+    {
+     "first": "Senegal",
+     "second": "Columbia"
+    }
+   ],
+   "finalist1": "Brazil",
+   "finalist2": "Germany",
+   "cupWinner": "Brazil"
+  },
+  "round2": {
+   "matchups": [
+    {
+     "winner": "Portugal",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Brazil",
+     "spread": "2",
+     "weightOfGame": "4"
+    },
+    {
+     "winner": "Belgium",
+     "spread": "3",
+     "weightOfGame": "6"
+    },
+    {
+     "winner": "Russia",
+     "spread": "1",
+     "weightOfGame": "3"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "5"
+    },
+    {
+     "winner": "Sweden",
+     "spread": "1",
+     "weightOfGame": "2"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "1"
+    }
+   ]
+  }
  }
 ]
