@@ -192,7 +192,7 @@ var submit = function()
 			newAlive.push(gebi("alive_" + i).value);
 		}
 	}
-	braket.alive = newAlive;
+	bracket.alive = newAlive;
 	
 	setBracketInfo.open("POST", "/changebracket/all/null");
 	setBracketInfo.send(JSON.stringify(ret, null,2));

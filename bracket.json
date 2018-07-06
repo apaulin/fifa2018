@@ -1,21 +1,11 @@
 {
  "alive": [
   "Russia",
-  "Uruguay",
-  "Portugal",
-  "Spain",
   "France",
-  "Danemark",
-  "Argentina",
   "Croatia",
-  "Brazil",
-  "Switzerland",
-  "Mexico",
   "Sweden",
   "Belgium",
-  "England",
-  "Columbia",
-  "Japan"
+  "England"
  ],
  "round1": {
   "name": "Group Round-Robin",
@@ -103,50 +93,50 @@
    {
     "team1": "Uruguay",
     "team2": "Portugal",
-    "winner": "",
-    "spread": ""
+    "winner": "Uruguay",
+    "spread": "1"
    },
    {
     "team1": "France",
     "team2": "Argentina",
-    "winner": "",
-    "spread": ""
+    "winner": "France",
+    "spread": "1"
    },
    {
     "team1": "Brazil",
     "team2": "Mexico",
-    "winner": "",
-    "spread": ""
+    "winner": "Brazil",
+    "spread": "2"
    },
    {
     "team1": "Belgium",
     "team2": "Japan",
-    "winner": "",
-    "spread": ""
+    "winner": "Belgium",
+    "spread": "1"
    },
    {
     "team1": "Spain",
     "team2": "Russia",
-    "winner": "",
-    "spread": ""
+    "winner": "Russia",
+    "spread": "0"
    },
    {
     "team1": "Croatia",
     "team2": "Danemark",
-    "winner": "",
-    "spread": ""
+    "winner": "Croatia",
+    "spread": "0"
    },
    {
     "team1": "Sweden",
     "team2": "Switzerland",
-    "winner": "",
-    "spread": ""
+    "winner": "Sweden",
+    "spread": "1"
    },
    {
     "team1": "Colombia",
     "team2": "England",
-    "winner": "",
-    "spread": ""
+    "winner": "England",
+    "spread": "0"
    }
   ]
  },
@@ -154,26 +144,26 @@
   "name": "Round of 8",
   "matchups": [
    {
-    "team1": "",
-    "team2": "",
+    "team1": "Uruguay",
+    "team2": "France",
+    "winner": "France",
+    "spread": "2"
+   },
+   {
+    "team1": "Brazil",
+    "team2": "Belgium",
+    "winner": "Belgium",
+    "spread": "1"
+   },
+   {
+    "team1": "Russia",
+    "team2": "Croatia",
     "winner": "",
     "spread": ""
    },
    {
-    "team1": "",
-    "team2": "",
-    "winner": "",
-    "spread": ""
-   },
-   {
-    "team1": "",
-    "team2": "",
-    "winner": "",
-    "spread": ""
-   },
-   {
-    "team1": "",
-    "team2": "",
+    "team1": "Sweden",
+    "team2": "England",
     "winner": "",
     "spread": ""
    }
@@ -183,7 +173,7 @@
   "name": "Semi - Finals",
   "matchups": [
    {
-    "team1": "",
+    "team1": "France",
     "team2": "",
     "winner": "",
     "spread": ""
