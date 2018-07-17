@@ -1,11 +1,7 @@
 {
  "alive": [
-  "Russia",
   "France",
-  "Croatia",
-  "Sweden",
-  "Belgium",
-  "England"
+  "Croatia"
  ],
  "round1": {
   "name": "Group Round-Robin",
@@ -83,9 +79,9 @@
     "second": "Japan"
    }
   ],
-  "finalist1": "",
-  "finalist2": "",
-  "cupWinner": ""
+  "finalist1": "France",
+  "finalist2": "Croatia",
+  "cupWinner": "France"
  },
  "round2": {
   "name": "Round of 16",
@@ -158,14 +154,14 @@
    {
     "team1": "Russia",
     "team2": "Croatia",
-    "winner": "",
-    "spread": ""
+    "winner": "Croatia",
+    "spread": "0"
    },
    {
     "team1": "Sweden",
     "team2": "England",
-    "winner": "",
-    "spread": ""
+    "winner": "England",
+    "spread": "2"
    }
   ]
  },
@@ -174,15 +170,15 @@
   "matchups": [
    {
     "team1": "France",
-    "team2": "",
-    "winner": "",
-    "spread": ""
+    "team2": "Belgium",
+    "winner": "France",
+    "spread": "1"
    },
    {
-    "team1": "",
-    "team2": "",
-    "winner": "",
-    "spread": ""
+    "team1": "Croatia",
+    "team2": "England",
+    "winner": "Croatia",
+    "spread": "1"
    }
   ]
  },
@@ -190,10 +186,10 @@
   "name": "Final",
   "matchups": [
    {
-    "team1": "",
-    "team2": "",
-    "winner": "",
-    "spread": ""
+    "team1": "France",
+    "team2": "Croatia",
+    "winner": "France",
+    "spread": "2"
    }
   ]
  }

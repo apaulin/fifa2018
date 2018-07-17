@@ -114,6 +114,29 @@
      "weightOfGame": "7"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -226,6 +249,29 @@
      "weightOfGame": "6"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -335,6 +381,29 @@
     {
      "winner": "England",
      "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "Belgium",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
      "weightOfGame": "8"
     }
    ]
@@ -450,6 +519,29 @@
      "weightOfGame": "6"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "Belgium",
+     "spread": "0",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "Croatia",
+     "spread": "0",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -560,6 +652,29 @@
      "winner": "England",
      "spread": "1",
      "weightOfGame": "6"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "Belgium",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
     }
    ]
   }
@@ -674,6 +789,29 @@
      "weightOfGame": "6"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "3",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -784,6 +922,29 @@
      "winner": "England",
      "spread": "1",
      "weightOfGame": "5"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "Belgium",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "8"
     }
    ]
   }
@@ -898,6 +1059,29 @@
      "weightOfGame": "7"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -1008,6 +1192,29 @@
      "winner": "England",
      "spread": "1",
      "weightOfGame": "6"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
     }
    ]
   }
@@ -1122,6 +1329,29 @@
      "weightOfGame": "6"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -1232,6 +1462,29 @@
      "winner": "England",
      "spread": "1",
      "weightOfGame": "5"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "2",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
     }
    ]
   }
@@ -1348,6 +1601,29 @@
     {
      "winner": "England",
      "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "Belgium",
+     "spread": "0",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "England",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "Croatia",
+     "spread": "1",
      "weightOfGame": "8"
     }
    ]
@@ -1531,6 +1807,29 @@
      "weightOfGame": "5"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -1641,6 +1940,29 @@
      "winner": "England",
      "spread": "1",
      "weightOfGame": "6"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "Belgium",
+     "spread": "1",
+     "weightOfGame": "8"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "7"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "Croatia",
+     "spread": "2",
+     "weightOfGame": "8"
     }
    ]
   }
@@ -1755,6 +2077,29 @@
      "weightOfGame": "8"
     }
    ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "0",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "England",
+     "spread": "2",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
   }
  },
  {
@@ -1863,6 +2208,29 @@
     },
     {
      "winner": "England",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round4": {
+   "matchups": [
+    {
+     "winner": "France",
+     "spread": "1",
+     "weightOfGame": "7"
+    },
+    {
+     "winner": "Croatia",
+     "spread": "1",
+     "weightOfGame": "8"
+    }
+   ]
+  },
+  "round5": {
+   "matchups": [
+    {
+     "winner": "France",
      "spread": "1",
      "weightOfGame": "8"
     }
